@@ -2,7 +2,7 @@ import { Query } from "./CubeQueryStruct";
 
 export type BlendedDataStruct = {
     results: DataStruct[];
-    quequeryType: string; //in this case always "blendingQuery"
+    queryType: string; //in this case always "blendingQuery"
 }
 
 export type DataStruct = {
