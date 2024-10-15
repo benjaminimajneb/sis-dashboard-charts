@@ -1,33 +1,20 @@
-import { valueArray } from "vega-lite/build/src/channeldef";
-import { Dimension } from "./CubeDataSetSchema";
 import { Query } from "./CubeQueryStruct";
 
+export type BlendedDataStruct = {
+    results: DataStruct[];
+    quequeryType: string; //in this case always "blendingQuery"
+}
+
 export type DataStruct = {
-  data: Data[];
-  query: Query;
-  lastRefreshTime: string;
-}
-
-export type Data = {
-  dimension: string;
-  data: DataPoint[];
-  refreshDateTime: string;
-}
-
-{ 
-    dimension1: value
-    dimension2: value
-}
-
-
-export type Filter = {
-    dimension: string;
-    operator: string;
-    values: string[];
-}
+    data: Data<Query>;
+    query: Query;
+    lastRefreshTime: string;
+  }
   
-export type TimeDimension = {
-    dimension: string;
-    granularity: string;
-    dateRange?: string[];
-}
+  // Utility type to extract keys from Query
+  type ExtractKeys<T extends Query> = {
+    [K in T['dimensions'][number] | T['measures'][number]]: any;
+  }
+  
+  // Data type with keys from Query.dimensions and Query.measures
+  export type Data<T extends Query> = ExtractKeys<T>;

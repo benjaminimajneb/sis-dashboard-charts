@@ -29,4 +29,3 @@ export type Dimension = {
 export type DimensionCollection = {
     [key in Dimension['dimension']]: Dimension;
 };
-

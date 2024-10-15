@@ -1,38 +1,18 @@
-import { Filter } from "../types/DataSetSchema";
-
-/**
- * This is how we configure each chart. It is the chosen (current) settings
- */
-export type ChartConfigOptions = {
-  width: number;
-  height: number;
-  dataset: string;
-  sourceUrl: string;
+export type Filter = {
   dimension: string;
+  operator: string;
+  values: string[];
+}
+
+export type TimeDimension = {
+  dimension: string;
+  granularity: string;
+  dateRange?: string[]; //this can be a text like 'last year' or startdate and enddate
+}
+
+export type Query = {
+  dimensions: string[];
   measures: string[];
-  grouping?: string;
-  filters?: Filter[];
-  description?: string; //these might come from dataset, might not
-  title?: string; //these might come from dataset, might not
-  click?: InteractionEvent;
+  filters: Filter[];
+  timeDimensions: TimeDimension[];
 }
-
-export type GlobalConfigOptions = {
-  filters?: Filter[];
-  grouping?: string;
-  theme: string;
-  sourceUrl?: string;
-}
-
-export type CombinedConfigOptions = ChartConfigOptions & GlobalConfigOptions;
-
-export type UrlEvent = {
-  type: "url";
-  url: string;
-}
-
-export type FilterEvent = {
-  type: "filter";
-}
-
-export type InteractionEvent = UrlEvent | FilterEvent;
