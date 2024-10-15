@@ -1,0 +1,60 @@
+NOTES ON CHARTING LIBRARIES
+If options are props we can't pass around arrays/objects of data & labels etc, we must extract these and manually pass in to every component, so this is more work
+If components take options arrays we can create methods that format correctly and pass these around in one go.
+
+
+Echarts:
+    keeps data separate from labels, so the axes also have data arrays (with the labels). 
+        The data is then unkeyed. This is not the case for Pies, which has a different format
+        This is not ideal because we have to extract these when transforming api data, also could lead
+        to inconsistencies with multi datasets.
+    the chart type is defined in the options passed to the component along with the data.
+    not sure if there is a type/interface for this options/data array
+    https://echarts.apache.org/en/option.html#title
+
+VegaLite:
+    very hard to attach click events
+    data structure strongly typed but unions that are different for different chart components which quickly leads to a mess
+    Vega chart options themselves are disabled with actions=false
+    BarChart requires VisualizationSpec that has mark='bar' and data={values: []}, however this is not valid for VisualizationSpec type:
+        This makes BaseChart incompatible with its extensions!!
+
+Nivo:
+    different component per chart type
+    data format different for pies/graphs
+    Millions of props rather than an options array
+    https://blog.logrocket.com/building-charts-in-react-with-nivo/
+    https://nivo.rocks/circle-packing/
+
+ReactChartJs2:
+    Different components for different chart types
+    Options array rather than loads of props
+    https://www.chartjs.org/docs/latest/samples/bar/floating.html
+    
+
+Recharts:
+    Very compact data format, same for all chart types
+    options are all props
+    Different components/sub-components for different chart types
+    https://recharts.org/en-US/examples/CustomizedRectangleContent
+    https://recharts.org/en-US/storybook
+
+Victory:
+    Compact data format, same for all chart types, takes separate data arrays for charts with multiple measure on. All x & y
+    Different components for different chart types
+    Options are passed in as props, separate components even for the different axes
+    https://commerce.nearform.com/open-source/victory
+
+Vis:
+    Similar compact data structure, but Pie is different
+    Different components for different chart types, 
+    Options are passed in as props not as an array
+    - struggled to resolve npm dependencies
+    - data types
+    https://uber.github.io/react-vis/
+    https://uber.github.io/react-vis/website/dist/storybook/index.html?knob-X%20Axis=true&knob-strokeStyle=solid&knob-vertical%20gridlines=true&knob-stroke=%2312939a&knob-horizontal%20gridlines=true&knob-opacity=0.5&knob-strokeWidth=2&knob-fill=%2312939a&knob-style=%7B%7D&knob-colorScale=category&knob-Y%20Axis=true&selectedKind=Series%2FMarkSeries%2FStyling%2FAt%20series%20level&selectedStory=opacity&full=0&addons=1&stories=1&panelRight=0&addonPanel=kadira%2Fjsx%2Fpanel
+    
+Plotly
+ - doesn't support typescript
+
+

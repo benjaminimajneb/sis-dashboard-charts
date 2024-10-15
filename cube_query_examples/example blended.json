@@ -1,0 +1,225 @@
+{
+  "queryType": "blendingQuery",
+  "results": [
+    {
+      "query": {
+        "limit": 5000,
+        "dimensions": [
+          "suspensions.statistical_days_excluded"
+        ],
+        "measures": [
+          "suspensions.count"
+        ],
+        "timeDimensions": [
+          {
+            "dimension": "suspensions.decision_date",
+            "granularity": "day",
+            "dateRange": [
+              "2024-01-01T00:00:00.000",
+              "2024-12-31T23:59:59.999"
+            ]
+          }
+        ],
+        "timezone": "UTC",
+        "filters": [],
+        "rowLimit": 5000
+      },
+      "data": [
+        {
+          "suspensions.statistical_days_excluded": "1",
+          "suspensions.decision_date.day": "2024-09-04T00:00:00.000",
+          "suspensions.decision_date": "2024-09-04T00:00:00.000",
+          "suspensions.count": "1",
+          "time.day": "2024-09-04T00:00:00.000"
+        }
+      ],
+      "lastRefreshTime": "2024-10-14T10:58:52.919Z",
+      "annotation": {
+        "measures": {
+          "suspensions.count": {
+            "title": "Suspensions Count",
+            "shortTitle": "Count",
+            "description": "Total count of suspension records.",
+            "type": "number",
+            "meta": {
+              "user_roles": [
+                "GROUP__BI_VIEWER__VIEW",
+                "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS"
+              ]
+            },
+            "drillMembers": [],
+            "drillMembersGrouped": {
+              "measures": [],
+              "dimensions": []
+            }
+          }
+        },
+        "dimensions": {
+          "suspensions.statistical_days_excluded": {
+            "title": "Suspensions Statistical Days Excluded",
+            "shortTitle": "Statistical Days Excluded",
+            "description": "Number of statistical days the student has been excluded.",
+            "type": "string",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          }
+        },
+        "segments": {},
+        "timeDimensions": {
+          "suspensions.decision_date.day": {
+            "title": "Suspensions Decision Date",
+            "shortTitle": "Decision Date",
+            "description": "The date a suspension decision was made.",
+            "type": "time",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          },
+          "suspensions.decision_date": {
+            "title": "Suspensions Decision Date",
+            "shortTitle": "Decision Date",
+            "description": "The date a suspension decision was made.",
+            "type": "time",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          }
+        }
+      },
+      "dataSource": "default",
+      "dbType": "snowflake",
+      "extDbType": "cubestore",
+      "external": false,
+      "slowQuery": false,
+      "total": null
+    },
+    {
+      "query": {
+        "limit": 5000,
+        "dimensions": [
+          "suspensions.statistical_days_excluded"
+        ],
+        "measures": [
+          "suspensions.count"
+        ],
+        "timeDimensions": [
+          {
+            "dimension": "suspensions.decision_date",
+            "granularity": "day",
+            "dateRange": [
+              "2023-01-01T00:00:00.000",
+              "2023-12-31T23:59:59.999"
+            ]
+          }
+        ],
+        "timezone": "UTC",
+        "filters": [],
+        "rowLimit": 5000
+      },
+      "data": [
+        {
+          "suspensions.statistical_days_excluded": "1",
+          "suspensions.decision_date.day": "2023-03-16T00:00:00.000",
+          "suspensions.decision_date": "2023-03-16T00:00:00.000",
+          "suspensions.count": "4",
+          "time.day": "2023-03-16T00:00:00.000"
+        }
+      ],
+      "lastRefreshTime": "2024-10-14T10:58:53.002Z",
+      "annotation": {
+        "measures": {
+          "suspensions.count": {
+            "title": "Suspensions Count",
+            "shortTitle": "Count",
+            "description": "Total count of suspension records.",
+            "type": "number",
+            "meta": {
+              "user_roles": [
+                "GROUP__BI_VIEWER__VIEW",
+                "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS"
+              ]
+            },
+            "drillMembers": [],
+            "drillMembersGrouped": {
+              "measures": [],
+              "dimensions": []
+            }
+          }
+        },
+        "dimensions": {
+          "suspensions.statistical_days_excluded": {
+            "title": "Suspensions Statistical Days Excluded",
+            "shortTitle": "Statistical Days Excluded",
+            "description": "Number of statistical days the student has been excluded.",
+            "type": "string",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          }
+        },
+        "segments": {},
+        "timeDimensions": {
+          "suspensions.decision_date.day": {
+            "title": "Suspensions Decision Date",
+            "shortTitle": "Decision Date",
+            "description": "The date a suspension decision was made.",
+            "type": "time",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          },
+          "suspensions.decision_date": {
+            "title": "Suspensions Decision Date",
+            "shortTitle": "Decision Date",
+            "description": "The date a suspension decision was made.",
+            "type": "time",
+            "meta": {
+              "user_roles": [
+                "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+              ]
+            }
+          }
+        }
+      },
+      "dataSource": "default",
+      "dbType": "snowflake",
+      "extDbType": "cubestore",
+      "external": false,
+      "slowQuery": false,
+      "total": null
+    }
+  ],
+  "pivotQuery": {
+    "measures": [
+      "suspensions.count"
+    ],
+    "dimensions": [
+      "suspensions.statistical_days_excluded"
+    ],
+    "timeDimensions": [
+      {
+        "dimension": "time",
+        "granularity": "day"
+      }
+    ],
+    "queryType": "blendingQuery"
+  },
+  "slowQuery": false
+}

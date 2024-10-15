@@ -1,0 +1,1660 @@
+{
+  "cubes": [
+    {
+      "name": "behavioural_incidents",
+      "type": "cube",
+      "title": "Behavioural Incidents",
+      "isVisible": true,
+      "public": true,
+      "measures": [
+        {
+          "name": "behavioural_incidents.count",
+          "title": "Behavioural Incidents Count",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "behavioural_incidents.severity",
+          "title": "Behavioural Incidents Severity",
+          "type": "number",
+          "shortTitle": "Severity",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.academic_year_id",
+          "title": "Behavioural Incidents Academic Year Id",
+          "type": "number",
+          "shortTitle": "Academic Year Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.behavioural_incident_id",
+          "title": "Behavioural Incidents Behavioural Incident Id",
+          "type": "number",
+          "shortTitle": "Behavioural Incident Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.logged_by_staff_id",
+          "title": "Behavioural Incidents Logged by Staff Id",
+          "type": "number",
+          "shortTitle": "Logged by Staff Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.application_id",
+          "title": "Behavioural Incidents Application Id",
+          "type": "string",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.behaviour_location_name",
+          "title": "Behavioural Incidents Behaviour Location Name",
+          "type": "string",
+          "shortTitle": "Behaviour Location Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.narrative",
+          "title": "Behavioural Incidents Narrative",
+          "type": "string",
+          "shortTitle": "Narrative",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.academic_year_name",
+          "title": "Behavioural Incidents Academic Year Name",
+          "type": "string",
+          "shortTitle": "Academic Year Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.lesson_unique_id",
+          "title": "Behavioural Incidents Lesson Unique Id",
+          "type": "string",
+          "shortTitle": "Lesson Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.room_unique_id",
+          "title": "Behavioural Incidents Room Unique Id",
+          "type": "string",
+          "shortTitle": "Room Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.behaviour_name",
+          "title": "Behavioural Incidents Behaviour Name",
+          "type": "string",
+          "shortTitle": "Behaviour Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.academic_year_unique_id",
+          "title": "Behavioural Incidents Academic Year Unique Id",
+          "type": "string",
+          "shortTitle": "Academic Year Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.logged_by_staff_unique_id",
+          "title": "Behavioural Incidents Logged by Staff Unique Id",
+          "type": "string",
+          "shortTitle": "Logged by Staff Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.is_resolved",
+          "title": "Behavioural Incidents Is Resolved",
+          "type": "string",
+          "shortTitle": "Is Resolved",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.incident_date",
+          "title": "Behavioural Incidents Incident Date",
+          "type": "time",
+          "shortTitle": "Incident Date",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "behavioural_incidents.resolved_date",
+          "title": "Behavioural Incidents Resolved Date",
+          "type": "time",
+          "shortTitle": "Resolved Date",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    },
+    {
+      "name": "courses",
+      "type": "cube",
+      "title": "Courses",
+      "isVisible": true,
+      "public": true,
+      "measures": [
+        {
+          "name": "courses.count",
+          "title": "Courses Count",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "courses.faculty_id",
+          "title": "Courses Faculty Id",
+          "type": "number",
+          "shortTitle": "Faculty Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.academic_level_id",
+          "title": "Courses Academic Level Id",
+          "type": "number",
+          "shortTitle": "Academic Level Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.academic_year_id",
+          "title": "Courses Academic Year Id",
+          "type": "number",
+          "shortTitle": "Academic Year Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.parent_course_id",
+          "title": "Courses Parent Course Id",
+          "type": "number",
+          "shortTitle": "Parent Course Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.subject_id",
+          "title": "Courses Subject Id",
+          "type": "number",
+          "shortTitle": "Subject Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.course_id",
+          "title": "Courses Course Id",
+          "type": "number",
+          "shortTitle": "Course Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.department_id",
+          "title": "Courses Department Id",
+          "type": "string",
+          "shortTitle": "Department Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.faculty_unique_id",
+          "title": "Courses Faculty Unique Id",
+          "type": "string",
+          "shortTitle": "Faculty Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.is_class",
+          "title": "Courses Is Class",
+          "type": "string",
+          "shortTitle": "Is Class",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.course_name",
+          "title": "Courses Course Name",
+          "type": "string",
+          "shortTitle": "Course Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.application_id",
+          "title": "Courses Application Id",
+          "type": "string",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.department_unique_id",
+          "title": "Courses Department Unique Id",
+          "type": "string",
+          "shortTitle": "Department Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.is_main_assessable_unit",
+          "title": "Courses Is Main Assessable Unit",
+          "type": "string",
+          "shortTitle": "Is Main Assessable Unit",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.academic_level_unique_id",
+          "title": "Courses Academic Level Unique Id",
+          "type": "string",
+          "shortTitle": "Academic Level Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.academic_year_unique_id",
+          "title": "Courses Academic Year Unique Id",
+          "type": "string",
+          "shortTitle": "Academic Year Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.course_code",
+          "title": "Courses Course Code",
+          "type": "string",
+          "shortTitle": "Course Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.subject_name",
+          "title": "Courses Subject Name",
+          "type": "string",
+          "shortTitle": "Subject Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.parent_course_unique_id",
+          "title": "Courses Parent Course Unique Id",
+          "type": "string",
+          "shortTitle": "Parent Course Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "courses.subject_code",
+          "title": "Courses Subject Code",
+          "type": "string",
+          "shortTitle": "Subject Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    },
+    {
+      "name": "roll_call_attendance",
+      "type": "cube",
+      "title": "Roll Call Attendance",
+      "isVisible": true,
+      "public": true,
+      "connectedComponent": 1,
+      "measures": [
+        {
+          "name": "roll_call_attendance.count",
+          "title": "Roll Call Attendance Count",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "roll_call_attendance.student_id",
+          "title": "Roll Call Attendance Student Id",
+          "type": "number",
+          "shortTitle": "Student Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.attendance_roll_call_id",
+          "title": "Roll Call Attendance Attendance Roll Call Id",
+          "type": "number",
+          "shortTitle": "Attendance Roll Call Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.academic_year_id",
+          "title": "Roll Call Attendance Academic Year Id",
+          "type": "number",
+          "shortTitle": "Academic Year Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.attendance_roll_call_record_id",
+          "title": "Roll Call Attendance Attendance Roll Call Record Id",
+          "type": "number",
+          "shortTitle": "Attendance Roll Call Record Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.minutes_late",
+          "title": "Roll Call Attendance Minutes Late",
+          "type": "number",
+          "shortTitle": "Minutes Late",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.academic_year_name",
+          "title": "Roll Call Attendance Academic Year Name",
+          "type": "string",
+          "shortTitle": "Academic Year Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.raw_mark",
+          "title": "Roll Call Attendance Raw Mark",
+          "type": "string",
+          "shortTitle": "Raw Mark",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.is_authorized_absent",
+          "title": "Roll Call Attendance Is Authorized Absent",
+          "type": "string",
+          "shortTitle": "Is Authorized Absent",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.is_present",
+          "title": "Roll Call Attendance Is Present",
+          "type": "string",
+          "shortTitle": "Is Present",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.academic_year_unique_id",
+          "title": "Roll Call Attendance Academic Year Unique Id",
+          "type": "string",
+          "shortTitle": "Academic Year Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.is_possible_attendance",
+          "title": "Roll Call Attendance Is Possible Attendance",
+          "type": "string",
+          "shortTitle": "Is Possible Attendance",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.attendance_roll_call_unique_id",
+          "title": "Roll Call Attendance Attendance Roll Call Unique Id",
+          "type": "string",
+          "shortTitle": "Attendance Roll Call Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.mark_code",
+          "title": "Roll Call Attendance Mark Code",
+          "type": "string",
+          "shortTitle": "Mark Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.student_unique_id",
+          "title": "Roll Call Attendance Student Unique Id",
+          "type": "string",
+          "shortTitle": "Student Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.is_unauthorized_absent",
+          "title": "Roll Call Attendance Is Unauthorized Absent",
+          "type": "string",
+          "shortTitle": "Is Unauthorized Absent",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.period",
+          "title": "Roll Call Attendance Period",
+          "type": "string",
+          "shortTitle": "Period",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.application_id",
+          "title": "Roll Call Attendance Application Id",
+          "type": "string",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.date",
+          "title": "Roll Call Attendance Date",
+          "type": "time",
+          "shortTitle": "Date",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "roll_call_attendance.record_changed_in_warehouse_datetime",
+          "title": "Roll Call Attendance Record Changed in Warehouse Datetime",
+          "type": "time",
+          "shortTitle": "Record Changed in Warehouse Datetime",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    },
+    {
+      "name": "students",
+      "type": "cube",
+      "title": "Students",
+      "isVisible": true,
+      "public": true,
+      "connectedComponent": 1,
+      "measures": [
+        {
+          "name": "students.count",
+          "title": "Students Count",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "students.student_id",
+          "title": "Students Student Id",
+          "type": "number",
+          "shortTitle": "Student Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.gifted_talented",
+          "title": "Students Gifted Talented",
+          "type": "string",
+          "shortTitle": "Gifted Talented",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.native_language_codes",
+          "title": "Students Native Language Codes",
+          "type": "string",
+          "shortTitle": "Native Language Codes",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.service_child",
+          "title": "Students Service Child",
+          "type": "string",
+          "shortTitle": "Service Child",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.ethnicity_category",
+          "title": "Students Ethnicity Category",
+          "type": "string",
+          "shortTitle": "Ethnicity Category",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.ever_6_fsm",
+          "title": "Students Ever6 Fsm",
+          "type": "string",
+          "shortTitle": "Ever6 Fsm",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.pupil_premium_recipient",
+          "title": "Students Pupil Premium Recipient",
+          "type": "string",
+          "shortTitle": "Pupil Premium Recipient",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.mobile_y5_y6",
+          "title": "Students Mobile Y5 Y6",
+          "type": "string",
+          "shortTitle": "Mobile Y5 Y6",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.out_of_age_group_cohort",
+          "title": "Students Out of Age Group Cohort",
+          "type": "string",
+          "shortTitle": "Out of Age Group Cohort",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.traveller",
+          "title": "Students Traveller",
+          "type": "string",
+          "shortTitle": "Traveller",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.disadvantaged",
+          "title": "Students Disadvantaged",
+          "type": "string",
+          "shortTitle": "Disadvantaged",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.in_care",
+          "title": "Students In Care",
+          "type": "string",
+          "shortTitle": "In Care",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.in_year_admission",
+          "title": "Students In Year Admission",
+          "type": "string",
+          "shortTitle": "In Year Admission",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.sen",
+          "title": "Students Sen",
+          "type": "string",
+          "shortTitle": "Sen",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.ethnicity",
+          "title": "Students Ethnicity",
+          "type": "string",
+          "shortTitle": "Ethnicity",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.fsm",
+          "title": "Students Fsm",
+          "type": "string",
+          "shortTitle": "Fsm",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.eal",
+          "title": "Students Eal",
+          "type": "string",
+          "shortTitle": "Eal",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.gender",
+          "title": "Students Gender",
+          "type": "string",
+          "shortTitle": "Gender",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.current_sen_status",
+          "title": "Students Current Sen Status",
+          "type": "string",
+          "shortTitle": "Current Sen Status",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.application_id",
+          "title": "Students Application Id",
+          "type": "string",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.pupil_premium",
+          "title": "Students Pupil Premium",
+          "type": "string",
+          "shortTitle": "Pupil Premium",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.current_year_group",
+          "title": "Students Current Year Group",
+          "type": "string",
+          "shortTitle": "Current Year Group",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.nationalities",
+          "title": "Students Nationalities",
+          "type": "string",
+          "shortTitle": "Nationalities",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.email_address",
+          "title": "Students Email Address",
+          "type": "string",
+          "shortTitle": "Email Address",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.is_current",
+          "title": "Students Is Current",
+          "type": "string",
+          "shortTitle": "Is Current",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.ever_6_service_child",
+          "title": "Students Ever6 Service Child",
+          "type": "string",
+          "shortTitle": "Ever6 Service Child",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.native_language_names",
+          "title": "Students Native Language Names",
+          "type": "string",
+          "shortTitle": "Native Language Names",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.preferred_first_name",
+          "title": "Students Preferred First Name",
+          "type": "string",
+          "shortTitle": "Preferred First Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.postcode",
+          "title": "Students Postcode",
+          "type": "string",
+          "shortTitle": "Postcode",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.religion",
+          "title": "Students Religion",
+          "type": "string",
+          "shortTitle": "Religion",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.early_years_pupil_premium_recipient",
+          "title": "Students Early Years Pupil Premium Recipient",
+          "type": "string",
+          "shortTitle": "Early Years Pupil Premium Recipient",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.ethnicity_category_name",
+          "title": "Students Ethnicity Category Name",
+          "type": "string",
+          "shortTitle": "Ethnicity Category Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.current_curriculum_grade_name",
+          "title": "Students Current Curriculum Grade Name",
+          "type": "string",
+          "shortTitle": "Current Curriculum Grade Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.has_medical_condition",
+          "title": "Students Has Medical Condition",
+          "type": "string",
+          "shortTitle": "Has Medical Condition",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.preferred_last_name",
+          "title": "Students Preferred Last Name",
+          "type": "string",
+          "shortTitle": "Preferred Last Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.gifted",
+          "title": "Students Gifted",
+          "type": "string",
+          "shortTitle": "Gifted",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.sex",
+          "title": "Students Sex",
+          "type": "string",
+          "shortTitle": "Sex",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.current_registration_group",
+          "title": "Students Current Registration Group",
+          "type": "string",
+          "shortTitle": "Current Registration Group",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.talented",
+          "title": "Students Talented",
+          "type": "string",
+          "shortTitle": "Talented",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.legal_last_name",
+          "title": "Students Legal Last Name",
+          "type": "string",
+          "shortTitle": "Legal Last Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.child_protection",
+          "title": "Students Child Protection",
+          "type": "string",
+          "shortTitle": "Child Protection",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.mobile_y10_y11",
+          "title": "Students Mobile Y10 Y11",
+          "type": "string",
+          "shortTitle": "Mobile Y10 Y11",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.compulsory_school_age",
+          "title": "Students Compulsory School Age",
+          "type": "string",
+          "shortTitle": "Compulsory School Age",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.address",
+          "title": "Students Address",
+          "type": "string",
+          "shortTitle": "Address",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.upn",
+          "title": "Students Upn",
+          "type": "string",
+          "shortTitle": "Upn",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.legal_first_name",
+          "title": "Students Legal First Name",
+          "type": "string",
+          "shortTitle": "Legal First Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "students.date_of_birth",
+          "title": "Students Date of Birth",
+          "type": "time",
+          "shortTitle": "Date of Birth",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    },
+    {
+      "name": "summative_assessment_marks",
+      "type": "cube",
+      "title": "Summative Assessment Marks",
+      "isVisible": true,
+      "public": true,
+      "connectedComponent": 1,
+      "measures": [
+        {
+          "name": "summative_assessment_marks.count",
+          "title": "Summative Assessment Marks Count",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "summative_assessment_marks.gps_min",
+          "title": "Summative Assessment Marks Gps Min",
+          "type": "number",
+          "shortTitle": "Gps Min",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.staff_id",
+          "title": "Summative Assessment Marks Staff Id",
+          "type": "number",
+          "shortTitle": "Staff Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.gps_max",
+          "title": "Summative Assessment Marks Gps Max",
+          "type": "number",
+          "shortTitle": "Gps Max",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.assessment_id",
+          "title": "Summative Assessment Marks Assessment Id",
+          "type": "number",
+          "shortTitle": "Assessment Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.summative_assessment_mark_id",
+          "title": "Summative Assessment Marks Summative Assessment Mark Id",
+          "type": "number",
+          "shortTitle": "Summative Assessment Mark Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.academic_year_id",
+          "title": "Summative Assessment Marks Academic Year Id",
+          "type": "number",
+          "shortTitle": "Academic Year Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.grade_name",
+          "title": "Summative Assessment Marks Grade Name",
+          "type": "string",
+          "shortTitle": "Grade Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.non_submission_reason",
+          "title": "Summative Assessment Marks Non Submission Reason",
+          "type": "string",
+          "shortTitle": "Non Submission Reason",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.grade_points",
+          "title": "Summative Assessment Marks Grade Points",
+          "type": "string",
+          "shortTitle": "Grade Points",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.academic_year_unique_id",
+          "title": "Summative Assessment Marks Academic Year Unique Id",
+          "type": "string",
+          "shortTitle": "Academic Year Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.assessment_unique_id",
+          "title": "Summative Assessment Marks Assessment Unique Id",
+          "type": "string",
+          "shortTitle": "Assessment Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.student_unique_id",
+          "title": "Summative Assessment Marks Student Unique Id",
+          "type": "string",
+          "shortTitle": "Student Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.subject_name",
+          "title": "Summative Assessment Marks Subject Name",
+          "type": "string",
+          "shortTitle": "Subject Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.academic_year_name",
+          "title": "Summative Assessment Marks Academic Year Name",
+          "type": "string",
+          "shortTitle": "Academic Year Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.period_name",
+          "title": "Summative Assessment Marks Period Name",
+          "type": "string",
+          "shortTitle": "Period Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.application_id",
+          "title": "Summative Assessment Marks Application Id",
+          "type": "string",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.assessment_code",
+          "title": "Summative Assessment Marks Assessment Code",
+          "type": "string",
+          "shortTitle": "Assessment Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.grade_set_code",
+          "title": "Summative Assessment Marks Grade Set Code",
+          "type": "string",
+          "shortTitle": "Grade Set Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.academic_year_start",
+          "title": "Summative Assessment Marks Academic Year Start",
+          "type": "string",
+          "shortTitle": "Academic Year Start",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.staff_unique_id",
+          "title": "Summative Assessment Marks Staff Unique Id",
+          "type": "string",
+          "shortTitle": "Staff Unique Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.subject_code",
+          "title": "Summative Assessment Marks Subject Code",
+          "type": "string",
+          "shortTitle": "Subject Code",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.assessment_name",
+          "title": "Summative Assessment Marks Assessment Name",
+          "type": "string",
+          "shortTitle": "Assessment Name",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.student_id",
+          "title": "Summative Assessment Marks Student Id",
+          "type": "string",
+          "shortTitle": "Student Id",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.period_end",
+          "title": "Summative Assessment Marks Period End",
+          "type": "time",
+          "shortTitle": "Period End",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.period_start",
+          "title": "Summative Assessment Marks Period Start",
+          "type": "time",
+          "shortTitle": "Period Start",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "summative_assessment_marks.assessment_date",
+          "title": "Summative Assessment Marks Assessment Date",
+          "type": "time",
+          "shortTitle": "Assessment Date",
+          "suggestFilterValues": true,
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    },
+    {
+      "name": "suspensions",
+      "type": "cube",
+      "title": "Suspensions",
+      "isVisible": true,
+      "public": true,
+      "connectedComponent": 1,
+      "measures": [
+        {
+          "name": "suspensions.count",
+          "title": "Suspensions Count",
+          "description": "Total count of suspension records.",
+          "shortTitle": "Count",
+          "cumulativeTotal": false,
+          "cumulative": false,
+          "type": "number",
+          "aggType": "count",
+          "drillMembers": [],
+          "drillMembersGrouped": {
+            "measures": [],
+            "dimensions": []
+          },
+          "meta": {
+            "user_roles": [
+              "GROUP__BI_VIEWER__VIEW",
+              "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS"
+            ]
+          },
+          "isVisible": true,
+          "public": true
+        }
+      ],
+      "dimensions": [
+        {
+          "name": "suspensions.suspension_id",
+          "title": "Suspensions Suspension Id",
+          "type": "number",
+          "description": "Unique identifier for each suspension record.",
+          "shortTitle": "Suspension Id",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.student_id",
+          "title": "Suspensions Student Id",
+          "type": "number",
+          "description": "Unique identifier used internally by the institution for the student.",
+          "shortTitle": "Student Id",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__ACADEMIC_STRUCTURE__VIEW",
+              "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.suspension_reasons_list",
+          "title": "Suspensions Suspension Reasons List",
+          "type": "string",
+          "description": "List of reasons for the student's suspension.",
+          "shortTitle": "Suspension Reasons List",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.student_unique_id",
+          "title": "Suspensions Student Unique Id",
+          "type": "string",
+          "description": "Unique identifier assigned to each student.",
+          "shortTitle": "Student Unique Id",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS",
+              "GROUP__ACADEMIC_STRUCTURE__VIEW"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.suspension_reasons",
+          "title": "Suspensions Suspension Reasons",
+          "type": "string",
+          "description": "Reasons provided for the student's suspension.",
+          "shortTitle": "Suspension Reasons",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.statistical_days_excluded",
+          "title": "Suspensions Statistical Days Excluded",
+          "type": "string",
+          "description": "Number of statistical days the student has been excluded.",
+          "shortTitle": "Statistical Days Excluded",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.application_id",
+          "title": "Suspensions Application Id",
+          "type": "string",
+          "description": "Unique identifier for the student’s application.",
+          "shortTitle": "Application Id",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__INSTITUTION_DETAILS__VIEW"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.decision_date",
+          "title": "Suspensions Decision Date",
+          "type": "time",
+          "description": "The date a suspension decision was made.",
+          "shortTitle": "Decision Date",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.start_date",
+          "title": "Suspensions Start Date",
+          "type": "time",
+          "description": "The start date of the suspension.",
+          "shortTitle": "Start Date",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.daily_end_time",
+          "title": "Suspensions Daily End Time",
+          "type": "time",
+          "description": "The end time of the student's daily school session.",
+          "shortTitle": "Daily End Time",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__ACADEMIC_STRUCTURE__VIEW"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.daily_start_time",
+          "title": "Suspensions Daily Start Time",
+          "type": "time",
+          "description": "The start time of the student's daily school session.",
+          "shortTitle": "Daily Start Time",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__ACADEMIC_STRUCTURE__VIEW"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        },
+        {
+          "name": "suspensions.end_date",
+          "title": "Suspensions End Date",
+          "type": "time",
+          "description": "The end date of the suspension.",
+          "shortTitle": "End Date",
+          "suggestFilterValues": true,
+          "meta": {
+            "user_roles": [
+              "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+              "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+            ]
+          },
+          "isVisible": true,
+          "public": true,
+          "primaryKey": false
+        }
+      ],
+      "segments": [],
+      "hierarchies": []
+    }
+  ]
+}

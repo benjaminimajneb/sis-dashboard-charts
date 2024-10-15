@@ -1,0 +1,280 @@
+{
+    "query": {
+        "limit": 5000,
+        "dimensions": [
+            "student_behaviours.application_id",
+            "student_behaviours.student_unique_id",
+            "student_behaviours.current_year_group",
+            "student_behaviours.unique_stud_id",
+            "student_behaviours.statistical_days_excluded"
+        ],
+        "timezone": "UTC",
+        "filters": [],
+        "timeDimensions": [],
+        "rowLimit": 5000
+    },
+    "data": [
+        {
+            "student_behaviours.application_id": "uk_demo_aiden2",
+            "student_behaviours.student_unique_id": "uk_demo_aiden2-1-1516",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_aiden2-1-1516",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_aiden2",
+            "student_behaviours.student_unique_id": "uk_demo_aiden2-1-1610",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_aiden2-1-1610",
+            "student_behaviours.statistical_days_excluded": "2"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_aiden2",
+            "student_behaviours.student_unique_id": "uk_demo_aiden2-1-1388",
+            "student_behaviours.current_year_group": "Year 10",
+            "student_behaviours.unique_stud_id": "uk_demo_aiden2-1-1388",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_andy1",
+            "student_behaviours.student_unique_id": "uk_demo_andy1-1-121",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_andy1-1-121",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_andy1",
+            "student_behaviours.student_unique_id": "uk_demo_andy1-1-512",
+            "student_behaviours.current_year_group": "Year 3",
+            "student_behaviours.unique_stud_id": "uk_demo_andy1-1-512",
+            "student_behaviours.statistical_days_excluded": "2.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_cs2",
+            "student_behaviours.student_unique_id": "uk_demo_cs2-1-512",
+            "student_behaviours.current_year_group": "Year 3",
+            "student_behaviours.unique_stud_id": "uk_demo_cs2-1-512",
+            "student_behaviours.statistical_days_excluded": "2.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_cs2",
+            "student_behaviours.student_unique_id": "uk_demo_cs2-1-121",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_cs2-1-121",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_daniel1",
+            "student_behaviours.student_unique_id": "uk_demo_daniel1-1-1516",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_daniel1-1-1516",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_daniel1",
+            "student_behaviours.student_unique_id": "uk_demo_daniel1-1-1610",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_daniel1-1-1610",
+            "student_behaviours.statistical_days_excluded": "2"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_daniel1",
+            "student_behaviours.student_unique_id": "uk_demo_daniel1-1-1388",
+            "student_behaviours.current_year_group": "Year 10",
+            "student_behaviours.unique_stud_id": "uk_demo_daniel1-1-1388",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani1",
+            "student_behaviours.student_unique_id": "uk_demo_eani1-1-512",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani1-1-512",
+            "student_behaviours.statistical_days_excluded": "0"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani1",
+            "student_behaviours.student_unique_id": "uk_demo_eani1-1-121",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani1-1-121",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani2",
+            "student_behaviours.student_unique_id": "uk_demo_eani2-1-289",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani2-1-289",
+            "student_behaviours.statistical_days_excluded": "0"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani2",
+            "student_behaviours.student_unique_id": "uk_demo_eani2-1-40",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani2-1-40",
+            "student_behaviours.statistical_days_excluded": "0.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani2",
+            "student_behaviours.student_unique_id": "uk_demo_eani2-1-248",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani2-1-248",
+            "student_behaviours.statistical_days_excluded": "0"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_eani2",
+            "student_behaviours.student_unique_id": "uk_demo_eani2-1-199",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_eani2-1-199",
+            "student_behaviours.statistical_days_excluded": "7"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_haylee1",
+            "student_behaviours.student_unique_id": "uk_demo_haylee1-1-1516",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_haylee1-1-1516",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_haylee1",
+            "student_behaviours.student_unique_id": "uk_demo_haylee1-1-1610",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_haylee1-1-1610",
+            "student_behaviours.statistical_days_excluded": "2"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_haylee1",
+            "student_behaviours.student_unique_id": "uk_demo_haylee1-1-1388",
+            "student_behaviours.current_year_group": "Year 10",
+            "student_behaviours.unique_stud_id": "uk_demo_haylee1-1-1388",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_pams1",
+            "student_behaviours.student_unique_id": "uk_demo_pams1-1-512",
+            "student_behaviours.current_year_group": "Year 3",
+            "student_behaviours.unique_stud_id": "uk_demo_pams1-1-512",
+            "student_behaviours.statistical_days_excluded": "2.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_pams1",
+            "student_behaviours.student_unique_id": "uk_demo_pams1-1-632",
+            "student_behaviours.current_year_group": "Year 1",
+            "student_behaviours.unique_stud_id": "uk_demo_pams1-1-632",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_pams1",
+            "student_behaviours.student_unique_id": "uk_demo_pams1-1-121",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_pams1-1-121",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_pams2",
+            "student_behaviours.student_unique_id": "uk_demo_pams2-1-249",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_pams2-1-249",
+            "student_behaviours.statistical_days_excluded": "5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_pams2",
+            "student_behaviours.student_unique_id": "uk_demo_pams2-1-456",
+            "student_behaviours.current_year_group": "Year 7",
+            "student_behaviours.unique_stud_id": "uk_demo_pams2-1-456",
+            "student_behaviours.statistical_days_excluded": "0.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_phillippa2",
+            "student_behaviours.student_unique_id": "uk_demo_phillippa2-1-1610",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_phillippa2-1-1610",
+            "student_behaviours.statistical_days_excluded": "2"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_phillippa2",
+            "student_behaviours.student_unique_id": "uk_demo_phillippa2-1-1388",
+            "student_behaviours.current_year_group": "Year 10",
+            "student_behaviours.unique_stud_id": "uk_demo_phillippa2-1-1388",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_phillippa2",
+            "student_behaviours.student_unique_id": "uk_demo_phillippa2-1-1516",
+            "student_behaviours.current_year_group": "Year 9",
+            "student_behaviours.unique_stud_id": "uk_demo_phillippa2-1-1516",
+            "student_behaviours.statistical_days_excluded": "1"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_tim1",
+            "student_behaviours.student_unique_id": "uk_demo_tim1-1-512",
+            "student_behaviours.current_year_group": "Year 3",
+            "student_behaviours.unique_stud_id": "uk_demo_tim1-1-512",
+            "student_behaviours.statistical_days_excluded": "2.5"
+        },
+        {
+            "student_behaviours.application_id": "uk_demo_tim1",
+            "student_behaviours.student_unique_id": "uk_demo_tim1-1-121",
+            "student_behaviours.current_year_group": null,
+            "student_behaviours.unique_stud_id": "uk_demo_tim1-1-121",
+            "student_behaviours.statistical_days_excluded": "1"
+        }
+    ],
+    "lastRefreshTime": "2024-10-10T15:49:48.158Z",
+    "annotation": {
+        "measures": {},
+        "dimensions": {
+            "student_behaviours.application_id": {
+                "title": "Student Behaviours Application Id",
+                "shortTitle": "Application Id",
+                "description": "Unique identifier for the student’s application.",
+                "type": "string",
+                "meta": {
+                    "user_roles": [
+                        "GROUP__INSTITUTION_DETAILS__VIEW"
+                    ]
+                }
+            },
+            "student_behaviours.student_unique_id": {
+                "title": "Student Behaviours Student Unique Id",
+                "shortTitle": "Student Unique Id",
+                "description": "Unique identifier assigned to each student.",
+                "type": "string",
+                "meta": {
+                    "user_roles": [
+                        "GROUP__DATA_ACCESS__VIEW_ALL_INSTITUTIONS",
+                        "GROUP__ACADEMIC_STRUCTURE__VIEW"
+                    ]
+                }
+            },
+            "student_behaviours.current_year_group": {
+                "title": "Student Behaviours Current Year Group",
+                "shortTitle": "Current Year Group",
+                "type": "string"
+            },
+            "student_behaviours.unique_stud_id": {
+                "title": "Student Behaviours Unique Stud Id",
+                "shortTitle": "Unique Stud Id",
+                "type": "string"
+            },
+            "student_behaviours.statistical_days_excluded": {
+                "title": "Student Behaviours Statistical Days Excluded",
+                "shortTitle": "Statistical Days Excluded",
+                "description": "Number of statistical days the student has been excluded.",
+                "type": "string",
+                "meta": {
+                    "user_roles": [
+                        "GROUP__PERMANENT_EXCLUSIONS__VIEW",
+                        "GROUP__PERMANENT_EXCLUSIONS__ADMINISTER"
+                    ]
+                }
+            }
+        },
+        "segments": {},
+        "timeDimensions": {}
+    },
+    "dataSource": "default",
+    "dbType": "snowflake",
+    "extDbType": "cubestore",
+    "external": false,
+    "slowQuery": false,
+    "total": null
+}
